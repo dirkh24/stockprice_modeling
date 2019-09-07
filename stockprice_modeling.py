@@ -27,7 +27,7 @@ style.use('ggplot')
 
 # fetch the data from the internet
 start = datetime.datetime(2010, 1, 1)
-end = datetime.datetime(2017, 1, 11)
+end = datetime.datetime(2019, 9, 7)
 
 df = web.DataReader("AAPL", 'yahoo', start, end)
 print(df.tail())
